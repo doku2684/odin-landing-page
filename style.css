@@ -89,6 +89,10 @@ img {
     color: #E5E7EB;
 }
 
+.footer {
+    color: #E5E7EB;
+}
+
 /* Flex and Positioning */
 
 .header {
@@ -177,4 +181,10 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 64px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
 }

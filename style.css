@@ -134,3 +134,18 @@ ul {
     width: 180px;
     padding-top: 8px;
 }
+
+.quote {
+    padding: 0px 188px;
+}
+
+.quote-content {
+    margin-top: 96px;
+    max-width: 1600px;
+}
+
+.quote-name {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    margin-left: auto;
+}

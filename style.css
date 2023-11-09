@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.hero > .text-container > .headtext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero > .text-container > .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.signup-button, .action-banner {
+    background-color: #3882F6;
+}
+
+.info > .headtext {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}

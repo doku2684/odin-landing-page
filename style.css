@@ -17,6 +17,12 @@ img {
     height: max-content;
 }
 
+.image-and-text > img {
+    border-radius: 12px;
+    border: 4px solid #3882F6;
+    width: 200px;
+}
+
 .signup-button {
     border: none;
     border-radius: 6px;
@@ -96,4 +102,35 @@ ul {
 .hero > .text-container > * {
     margin-bottom: 8px;
     max-width: 400px;
+}
+
+.content > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info > .headtext {
+    padding: 24px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-bottom: 96px;
+}
+
+.image-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    width: 180px;
+    padding-top: 8px;
 }
